@@ -1,5 +1,5 @@
 [中文說明](https://github.com/Jokder/tg-bot-ntfy/blob/master/README-ZH.md '中文说明')
-
+<br>
 [中文说明](https://github.com/Jokder/tg-bot-ntfy/blob/master/README-ZHCN.md '中文说明')
 
 ## Telegram bot notify
