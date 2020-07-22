@@ -6,8 +6,8 @@ a simple tool for sending message to specify user via bot.
 
 ## First
 
-* chat with [BotFather](https://t.me/botfather 'BotFather')to create a bot.
-* chat with [useridbot](https://telegram.me/userinfobot 'useridbot')to get yourself telegram account id
+* chat with [BotFather](https://t.me/botfather 'BotFather') to create a bot.
+* chat with [useridbot](https://telegram.me/userinfobot 'useridbot') to get yourself telegram account id
 * config file sample（config.ini）
 [config.ini](https://github.com/Jokder/tg-bot-ntfy/blob/master/Main/config.ini 'config file sample')
 ``` ini
