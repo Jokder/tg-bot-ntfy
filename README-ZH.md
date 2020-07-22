@@ -1,4 +1,4 @@
-## Telegram bot 發消息工具
+## Telegram bot 傳訊息工具
 
 一個可以通過控制台界面和http訪問通過telegram的bot傳送訊息的小工具。
 
