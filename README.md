@@ -43,9 +43,9 @@ password=
 ```
 
 
-## run
+## usage
 
-``` shell
+``` sh
 tgntf 
     --help              #help
     [cli|web]           #cli:run as cli tool，web:run as web service
