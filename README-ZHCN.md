@@ -52,3 +52,7 @@ tgntf
         -b --debug      #显示调试信息
         -o --to         #发送消息的对象（目前只支持id）
 ```
+
+## 开源许可
+
+MIT License: http://adampritchard.mit-license.org/ or see the [LICENSE](https://github.com/Jokder/tg-bot-ntfy/blob/master/LICENSE 'LICENSE') file.

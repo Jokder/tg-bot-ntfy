@@ -57,4 +57,4 @@ tgntf
 
 ## license
 
-MIT License: http://adampritchard.mit-license.org/ or see the [LICENSE](https://github.com/Jokder/tg-bot-ntfy/blob/master/README-ZHCN.md 'LICENSE') file.
+MIT License: http://adampritchard.mit-license.org/ or see the [LICENSE](https://github.com/Jokder/tg-bot-ntfy/blob/master/LICENSE 'LICENSE') file.
