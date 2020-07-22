@@ -18,9 +18,9 @@ use_proxy=no
 token=<通過BotFather獲得的token>
 
 [web_api]
-;以web服務方式啟動時，監聽的地址
+;以web服務方式啟動時，監聽位址
 listen=0.0.0.0
-;以web服務方式啟動時，監聽的端口
+;以web服務偵聽埠
 port=8080
 ;可以給web調用設置一個簡單的令牌
 key=<令牌>
@@ -28,7 +28,7 @@ key=<令牌>
 [proxy]
 ;使用代理的類型（http/socks5）
 type=http
-;代理的伺服器
+;代理的伺服器位址
 host=127.0.0.1
 ;代理埠
 port=8082
