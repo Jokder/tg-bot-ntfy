@@ -1,8 +1,8 @@
 [中文说明](https://github.com/Jokder/tg-bot-ntfy/blob/master/README-ZHCN.md '中文说明')
 
-## Telegram bot notify message tool
+## Telegram bot notify
 
-a simple tool for sending message to specify user via bot.
+a simple tool for sending messages to specify user via bot.
 
 ## First
 
