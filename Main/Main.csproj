@@ -3,7 +3,8 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <AssemblyName>tgntf</AssemblyName>
-        <AssemblyVersion>0.0.1beta</AssemblyVersion>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <Product>tgntf-beta</Product>
     </PropertyGroup>
 
     <ItemGroup>
