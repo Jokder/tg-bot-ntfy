@@ -38,7 +38,7 @@ namespace Main.Config
 
             //web api server sections
             WebApi.Listen = iniConfig["web_api"]["listen"];
-            WebApi.Port = iniConfig["web_api"]["port"];
+            WebApi.Port = ushort.Parse(iniConfig["web_api"]["port"]);
             WebApi.Key = iniConfig["web_api"]["key"];
         }
 
@@ -81,7 +81,7 @@ namespace Main.Config
         public static class WebApi
         {
             public static string Listen { get; set; }
-            public static string Port { get; set; }
+            public static ushort Port { get; set; }
             public static string Key { get; set; }
         }
     }

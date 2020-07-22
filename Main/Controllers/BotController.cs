@@ -16,7 +16,7 @@ namespace Main.Controllers
         [HttpGet]
         public string Notify(string key,string to,string content)
         {
-            if (key == AppConfiguration.WebApi.Key) return "incorrect api key.";
+            if (key != AppConfiguration.WebApi.Key) return "incorrect api key.";
             BotHelper.SendMessage(to,content);
             return "success";
         }

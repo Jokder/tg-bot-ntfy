@@ -13,7 +13,7 @@ a simple tool for sending message to specify user via bot.
 ``` ini
 [global]
 ;enable proxy
-use_proxy=yes
+use_proxy=no
 
 [bot]
 ;bot token the BotFather told you.
@@ -48,7 +48,7 @@ password=
 ``` sh
 tgntf 
     --help              #help
-    [cli|web]           #cli:run as cli tool，web:run as web service
+    [cli|serve]           #cli:run as cli tool，web:run as web service
         -c --config     #config file path
         -m --message    #message to sending
         -b --debug      #show debug info

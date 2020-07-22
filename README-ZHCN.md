@@ -11,7 +11,7 @@
 ``` ini
 [global]
 ;是否使用代理
-use_proxy=yes
+use_proxy=no
 
 [bot]
 ;通过BotFather获得的token.
@@ -46,7 +46,7 @@ password=
 ``` shell
 tgntf 
     --help              #帮助
-    [cli|web]           #cli作为控制台工具使用，web以web服务方式启动
+    [cli|serve]         #cli作为控制台工具使用，web以web服务方式启动
         -c --config     #配置文件路径
         -m --message    #发送消息的内容
         -b --debug      #显示调试信息
