@@ -43,7 +43,7 @@ password=
 ```
 
 
-## run
+## usage
 
 ``` shell
 tgntf 
