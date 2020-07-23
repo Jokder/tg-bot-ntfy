@@ -32,6 +32,12 @@ namespace Main
                 Console.WriteLine(eventArgs.ExceptionObject);
             };
 
+            //set default command to cli
+            if (args.FirstOrDefault() != "serve")
+            {
+                args = new[] {"cli"}.Concat(args).ToArray();
+            }
+
             Parser.Default
                 .ParseArguments<ServeOptions, CliOptions>(args)
                 .WithParsed<ServeOptions>(options =>
@@ -67,7 +73,7 @@ namespace Main
                     webBuilder.UseStartup<Startup>();
                     webBuilder.UseKestrel(opts =>
                     {
-                        opts.Listen(IPAddress.Parse(AppConfiguration.WebApi.Listen), port: AppConfiguration.WebApi.Port);
+                        opts.Listen(IPAddress.Parse(AppConfiguration.WebApi.Listen), AppConfiguration.WebApi.Port);
                     });
                 });
         }
